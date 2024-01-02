@@ -194,6 +194,7 @@
   font-size: 20px;
   font-weight: 700;
   padding: 15px 20px;
+  margin-right: 5px;
 }
 
 .cart-modal__footer--controls {
@@ -201,5 +202,11 @@
   align-items: center;
   justify-content: flex-end;
   gap: 11px;
+}
+
+@media (max-width: 768px) {
+  .cart-modal__footer--price {
+    font-size: 15px;
+  }
 }
 </style>
